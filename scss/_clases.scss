@@ -1,0 +1,18 @@
+/* NUESTRAS CLASES */
+
+.tituloNuestrasClases {
+  margin-top: 50px;
+}
+
+.imagenClases {
+  height: 250px;
+  width: 450px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .contenedorEfectosPositivos {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "coderhouse-bootstrap",
+  "version": "1.0.0",
+  "description": "Esta es mi pagina dedicada para K8 Chacras",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/estilo.scss css/k8chacras.css"
+  },
+  "author": "Tomas Licciardi Lopez",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

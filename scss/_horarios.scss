@@ -1,0 +1,49 @@
+/* HORARIOS */
+
+.tituloHorarios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.parrafoHorarios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.tablaHorarios {
+  margin: 8rem 0 180px 30%;
+  width: 700px;
+  text-align: center;
+  font-size: 2.1rem;
+  th {
+    background-color: none;
+  }
+  td {
+    background-color: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tablaHorarios {
+    margin: 5rem 2rem 0 2.5rem;
+    width: 700px;
+    text-align: center;
+    font-size: 2.1rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .tablaHorarios {
+    margin: auto;
+    width: auto;
+    text-align: center;
+    font-size: 2rem;
+  }
+}

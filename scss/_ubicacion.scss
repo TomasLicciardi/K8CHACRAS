@@ -1,0 +1,37 @@
+/* UBICACION */
+
+.tituloUbicacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 45px;
+}
+
+.parrafoUbicacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.div__ubicacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.ubicacion {
+  width: 350px;
+  height: 350px;
+  margin-bottom: 170px;
+}
+
+@media screen and (max-width: 460px) {
+  .div__ubicacion {
+    margin: 40px;
+  }
+}

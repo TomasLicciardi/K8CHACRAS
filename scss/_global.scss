@@ -1,0 +1,136 @@
+/* UNIVERSAL */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: $colordeFondo;
+}
+
+/* AFECTA A TODOS */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: $coloresTitulos;
+  font-family: $fuentesTitulo;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.7rem;
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+p {
+  color: $coloresTitulos;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-family: $fuenteTitulo;
+  font-weight: 400;
+  line-height: 3.5rem;
+}
+
+img {
+  border: inset 6px rgb(1, 200, 185);
+}
+
+/* HEADER */
+
+/* NAV */
+
+nav {
+  background-image: linear-gradient(to bottom, rgb(1, 200, 185), $colordeFondo);
+}
+
+.nav-item {
+  font-size: 3rem;
+}
+
+.menu {
+  background-color: $colordeFondo;
+}
+
+.tituloNav {
+  display: flex;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+/*Main*/
+
+table {
+  border: 4px ridge rgb(0, 0, 0);
+}
+
+/*FOOTER*/
+
+footer {
+  background-image: linear-gradient(to top, rgb(1, 200, 185), $colordeFondo);
+}
+
+ul {
+  li {
+    list-style: none;
+  }
+}
+
+.imagenesRedesSociales {
+  border-radius: 50%;
+  border: none;
+}
+
+.redesSociales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  a {
+    margin: 1rem;
+    &:hover {
+      transition: 1s;
+      transform: rotateY(360deg);
+    }
+  }
+}
+
+.Contactos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  color: #000000;
+  font-size: 2rem;
+  line-height: 2rem;
+  font-family: "Changa", sans-serif;
+  font-weight: 400;
+}
+
+/* MEDIA QUERIES */

@@ -1,0 +1,78 @@
+/* INDEX */
+.imagenIndex-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.parrafoIndex-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.parrafoIndex-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.imagenIndex-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.imagenIndex-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.imagenIndex-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+/* FORMULARIO */
+
+input {
+  background-image: linear-gradient(
+    to top,
+    rgb(255, 230, 230),
+    rgb(129, 255, 238)
+  );
+  margin: 5px;
+  border: none;
+  border-bottom: 3px solid rgb(34, 92, 92);
+  font-size: 1.7rem;
+}
+
+.boton {
+  font-size: 2rem;
+  background-image: linear-gradient(
+    to top,
+    rgb(255, 230, 230),
+    rgb(129, 255, 238)
+  );
+  &:hover {
+    background: rgb(255, 230, 230);
+    background: radial-gradient(
+      circle,
+      rgb(255, 230, 230) 45%,
+      rgb(129, 255, 238) 100%
+    );
+  }
+}

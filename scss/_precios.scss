@@ -1,0 +1,26 @@
+.tituloPrecios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.parrafoPrecios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.tituloCombo {
+  background-image: linear-gradient(to bottom, rgb(1, 200, 185), $colordeFondo);
+}
+
+@media screen and (min-width: 991px) {
+  .contenedorPrecios {
+    margin: 10rem auto;
+  }
+}
