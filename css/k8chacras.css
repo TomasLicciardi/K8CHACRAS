@@ -80,6 +80,10 @@ nav {
 }
 
 /*Main*/
+.main {
+  height: 100vh;
+}
+
 table {
   border: 4px ridge black;
 }
@@ -416,7 +420,7 @@ li {
 }
 
 .tablaHorarios {
-  margin: 8rem 0 200px 30%;
+  margin: 8rem 0 180px 30%;
   width: 700px;
   text-align: center;
   font-size: 2.1rem;
