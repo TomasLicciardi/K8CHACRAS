@@ -440,7 +440,7 @@ li {
     font-size: 2.1rem;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 430px) {
   .tablaHorarios {
     margin: auto;
     width: auto;
@@ -469,10 +469,12 @@ li {
   background-image: linear-gradient(to bottom, #01c8b9, #e1f0fa);
 }
 
-@media screen and (min-width: 991px) {
-  .contenedorPrecios {
-    margin: 10rem auto;
-  }
+.contenedorPrecios {
+  margin: 10rem auto;
+}
+
+.piePrecios {
+  margin-top: 25rem;
 }
 
 /*# sourceMappingURL=k8chacras.css.map */

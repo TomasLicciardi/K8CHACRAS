@@ -19,8 +19,10 @@
   background-image: linear-gradient(to bottom, rgb(1, 200, 185), $colordeFondo);
 }
 
-@media screen and (min-width: 991px) {
-  .contenedorPrecios {
-    margin: 10rem auto;
-  }
+.contenedorPrecios {
+  margin: 10rem auto;
+}
+
+.piePrecios {
+  margin-top: 25rem;
 }
